@@ -5,8 +5,7 @@ AFRAME.registerComponent('move-box-on-click', {
   },
   tick: function () {
 
-    window.addEventListener("click", (e) => {   
-
+    
       this.data.moveX = this.data.moveX +0.005;
 
     });
